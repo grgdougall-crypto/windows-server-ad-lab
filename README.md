@@ -53,3 +53,11 @@ This lab helped me understand how:
 
 ### Active Directory Users and Groups
 ![AD Users](screenshots-ad-users-groups.png)
+
+
+### DHCP Scope Configuration
+![DHCP Scope](dhcp-scope.png)
+
+
+### DHCP Scope Options (DNS & Domain Configuration)
+![DHCP Options](dhcp-scope-options.png)
