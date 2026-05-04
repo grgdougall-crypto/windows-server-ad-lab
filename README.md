@@ -45,4 +45,11 @@ This lab helped me understand how:
 - Active Directory structures users and groups  
 - Permissions control access to resources  
 - Network services like DNS and DHCP support system functionality  
-- Troubleshooting access issues requires both logical and systematic thinking  
+- Troubleshooting access issues requires both logical and systematic thinking
+
+---
+
+## Screenshots
+
+### Active Directory Users and Groups
+![AD Users](screenshots-ad-users-groups.png)
