@@ -1,9 +1,10 @@
 # Windows Server Active Directory Lab
 
 ## Overview
-This project documents my hands-on practice building a Windows Server 2022 environment using Active Directory, DNS, DHCP, shared folders, NTFS permissions, and Group Policy.
 
-The goal of this lab is to simulate real-world IT support and system administration tasks commonly performed in entry-level IT roles.
+This project simulates a small business IT environment built using Windows Server 2022. It demonstrates hands-on configuration of Active Directory, DNS, DHCP, and shared folder permissions to replicate common tasks performed in entry-level IT support and system administration roles.
+
+The lab focuses on building, configuring, and validating core services while troubleshooting real-world issues related to network configuration, domain services, and user access.
 
 ---
 
