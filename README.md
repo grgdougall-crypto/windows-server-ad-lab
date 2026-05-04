@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project simulates a small business IT environment built using Windows Server 2022. It demonstrates hands-on configuration of Active Directory, DNS, DHCP, and shared folder permissions to replicate common tasks performed in entry-level IT support and system administration roles.
+This project simulates a small business IT environment using Windows Server 2022. It demonstrates hands-on configuration of Active Directory, DNS, DHCP, and shared folder permissions to replicate common tasks performed in entry-level IT support and system administration roles.
 
-The lab focuses on building, configuring, and validating core services while troubleshooting real-world issues related to network configuration, domain services, and user access.
+The lab emphasizes building, validating, and troubleshooting core services, with a focus on understanding how network and domain components interact in a real-world environment.
 
 ---
 
@@ -33,16 +33,23 @@ The lab focuses on building, configuring, and validating core services while tro
 
 ## What I Built
 
-I created a simulated business environment with department-based users, groups, and shared folders.
+I created a simulated business environment with department-based users, groups, and shared resources.
 
-I configured:
+Key configurations included:
+- Active Directory structure with Organizational Units (OUs) and user accounts  
+- DNS configuration to support domain services and name resolution  
+- DHCP scope and scope options for automated IP addressing and domain connectivity  
+- Shared folders with NTFS permissions using department-level security groups  
 
-- User accounts and security groups for multiple departments  
-- Organizational Units (OUs) to structure the environment  
-- Shared folders with NTFS permissions configured using department-level security groups
-- DNS and DHCP services, including scope configuration and scope options (DNS server and domain integration)
+I validated configurations by testing user access and troubleshooting connectivity and permission-related issues.
 
-I also tested user access and troubleshot permission issues to better understand how systems interact in a real-world environment.
+---
+
+## Project Outcome
+
+This lab demonstrates the ability to build and manage a functional Windows Server environment, including identity management, network services, and access control.
+
+Through this project, I gained hands-on experience configuring core IT infrastructure and troubleshooting common issues related to DNS, DHCP, and user permissions.
 
 ---
 
