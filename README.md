@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project simulates a small business IT environment using Windows Server 2022. It demonstrates hands-on configuration of Active Directory, DNS, DHCP, and shared folder permissions to replicate common tasks performed in entry-level IT support and system administration roles.
+This project simulates a small business IT environment using Windows Server 2022, demonstrating hands-on configuration of Active Directory, DNS, DHCP, and access control.
 
 The lab emphasizes building, validating, and troubleshooting core services, with a focus on understanding how network and domain components interact in a real-world environment.
 
@@ -50,6 +50,8 @@ I validated configurations by testing user access and troubleshooting connectivi
 This lab demonstrates the ability to build and manage a functional Windows Server environment, including identity management, network services, and access control.
 
 Through this project, I gained hands-on experience configuring core IT infrastructure and troubleshooting common issues related to DNS, DHCP, and user permissions.
+
+This project reflects common responsibilities in entry-level IT roles, including user management, network configuration, and troubleshooting system access issues.
 
 ---
 
@@ -138,6 +140,13 @@ During the lab, I encountered several common configuration issues and worked thr
 - **Issue:** Users were unable to access shared folders as expected.
 - **Cause:** Incorrect or missing security group permissions.
 - **Fix:** Assigned permissions using department-based security groups and verified effective access through testing with different user accounts.
+
+---
+
+### Client Domain Connectivity Issue
+- **Issue:** Client machine was unable to join the domain.
+- **Cause:** Incorrect DNS configuration pointing outside the domain.
+- **Fix:** Updated client DNS settings to point to the domain controller.
 
 ---
 
