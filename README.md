@@ -51,6 +51,14 @@ This lab helped me understand how:
 
 ---
 
+## How to Recreate This Lab
+- Windows Server 2022 VM
+- Active Directory Domain Services role installed
+- DHCP configured with scope and options
+- Shared folders with NTFS permissions by department
+
+---
+
 ## Screenshots
 
 ### Active Directory Users and Groups
