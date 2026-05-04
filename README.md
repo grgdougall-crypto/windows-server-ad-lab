@@ -45,6 +45,19 @@ I validated configurations by testing user access and troubleshooting connectivi
 
 ---
 
+## Lab Environment Design
+
+- Domain: lab.local  
+- Server: Windows Server 2022 (Domain Controller)  
+- Client: Windows 10/11 VM  
+- Services: Active Directory, DNS, DHCP  
+
+- Internal Network: 192.168.1.0/24  
+- Domain Controller IP: 192.168.1.10  
+- DHCP Scope: 192.168.1.100–192.168.1.200
+
+---
+
 ## Project Outcome
 
 This lab demonstrates the ability to build and manage a functional Windows Server environment, including identity management, network services, and access control.
