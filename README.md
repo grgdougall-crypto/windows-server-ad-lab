@@ -28,13 +28,15 @@ The goal of this lab is to simulate real-world IT support and system administrat
 ---
 
 ## What I Built
+
 I created a simulated business environment with department-based users, groups, and shared folders.
 
 I configured:
-- User accounts and security groups  
-- Organizational Units (OUs)  
-- Shared folders with NTFS permissions  
-- DNS and DHCP services  
+
+- User accounts and security groups for multiple departments  
+- Organizational Units (OUs) to structure the environment  
+- Shared folders with NTFS permissions for controlled access  
+- DNS and DHCP services, including scope configuration and scope options (DNS server and domain integration)
 
 I also tested user access and troubleshot permission issues to better understand how systems interact in a real-world environment.
 
