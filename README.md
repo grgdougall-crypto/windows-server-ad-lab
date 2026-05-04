@@ -63,3 +63,7 @@ This lab helped me understand how:
 
 ### DHCP Scope Options (DNS & Domain Configuration)
 ![DHCP Options](dhcp-scope-options.png)
+
+
+### Shared Folder NTFS Permissions (Advanced)
+![NTFS Permissions](ntfs-permissions-advanced.png)
