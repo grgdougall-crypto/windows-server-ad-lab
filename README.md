@@ -64,11 +64,25 @@ This lab helped me understand how:
 ### Active Directory Users and Groups
 <img src="screenshots/ad-users-groups.png" width="700">
 
+Created and organized user accounts within department-based Organizational Units (OUs), demonstrating structured Active Directory management.
+
+---
+
 ### DHCP Scope Configuration
 <img src="screenshots/dhcp-scope.png" width="700">
+
+Configured a DHCP scope with defined IP address range, subnet mask, and lease duration to support client device connectivity.
+
+---
 
 ### DHCP Scope Options (DNS & Domain Configuration)
 <img src="screenshots/dhcp-scope-options.png" width="700">
 
+Configured DHCP scope options including DNS server and domain name to enable proper name resolution and domain integration.
+
+---
+
 ### Shared Folder NTFS Permissions (Advanced)
 <img src="screenshots/ntfs-permissions-advanced.png" width="700">
+
+Applied advanced NTFS permissions using security groups to enforce department-level access control and secure shared resources.
