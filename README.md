@@ -54,16 +54,16 @@ This lab helped me understand how:
 ## Screenshots
 
 ### Active Directory Users and Groups
-![AD Users](screenshots-ad-users-groups.png)
+![AD Users](screenshots/ad-users-groups.png)
 
 
 ### DHCP Scope Configuration
-![DHCP Scope](dhcp-scope.png)
+![DHCP Scope](screenshots/dhcp-scope.png)
 
 
 ### DHCP Scope Options (DNS & Domain Configuration)
-![DHCP Options](dhcp-scope-options.png)
+![DHCP Options](screenshots/dhcp-scope-options.png)
 
 
 ### Shared Folder NTFS Permissions (Advanced)
-![NTFS Permissions](ntfs-permissions-advanced.png)
+![NTFS Permissions](screenshots/ntfs-permissions-advanced.png)
