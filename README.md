@@ -117,6 +117,13 @@ Applied advanced NTFS permissions using security groups to enforce department-le
 
 ---
 
+### Network Diagram
+<img src=screenshots/network-diagram.png" width="700">
+
+This diagram illustrates how the domain controller, client machine, and network services interact within the lab environment.
+
+---
+
 ## Troubleshooting & Lessons Learned
 
 During the lab, I encountered several common configuration issues and worked through them to better understand how Windows Server services interact.
