@@ -9,16 +9,19 @@ The lab focuses on building, configuring, and validating core services while tro
 ---
 
 ## Skills Practiced
-- Active Directory user and group management  
-- Organizational Unit (OU) structure  
-- DNS and DHCP configuration  
-- Shared folders and NTFS permissions  
-- Group Policy basics  
-- Troubleshooting user access issues  
+
+- Active Directory user and group management, including creation of Organizational Units (OUs) and department-based structure  
+- DNS configuration and troubleshooting to support domain services and name resolution  
+- DHCP scope creation and configuration, including IP addressing and lease management  
+- Configuration of DHCP scope options (DNS server and domain name) to enable domain connectivity  
+- Shared folder creation with NTFS permissions using security groups for controlled access  
+- Basic troubleshooting of network and domain issues (DNS resolution, DHCP assignment, access permissions)  
+- Validation of system configurations through user testing and access verification  
 
 ---
 
 ## Tools Used
+
 - Windows Server 2022  
 - Windows 10/11 client VM  
 - Hyper-V  
@@ -44,6 +47,7 @@ I also tested user access and troubleshot permission issues to better understand
 ---
 
 ## Key Takeaways
+
 This lab helped me understand how:
 - Active Directory structures users and groups  
 - Permissions control access to resources  
@@ -53,6 +57,7 @@ This lab helped me understand how:
 ---
 
 ## How to Recreate This Lab
+
 - Windows Server 2022 VM
 - Active Directory Domain Services role installed
 - DHCP configured with scope and options
