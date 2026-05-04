@@ -86,3 +86,52 @@ Configured DHCP scope options including DNS server and domain name to enable pro
 <img src="screenshots/ntfs-permissions-advanced.png" width="700">
 
 Applied advanced NTFS permissions using security groups to enforce department-level access control and secure shared resources.
+
+---
+
+## Troubleshooting & Lessons Learned
+
+During the lab, I encountered several common configuration issues and worked through them to better understand how Windows Server services interact.
+
+### Active Directory / Domain Setup
+- **Issue:** Initial confusion around domain structure and OU organization.
+- **Cause:** Lack of planning for how users and departments should be logically grouped.
+- **Fix:** Reorganized OUs into department-based structure (HR, Finance, IT, etc.) to better reflect a real-world environment.
+
+---
+
+### DNS Configuration
+- **Issue:** Clients were unable to resolve domain names or join the domain.
+- **Cause:** DNS was not properly configured or clients were not pointing to the domain controller as their DNS server.
+- **Fix:** Verified DNS role was installed, ensured proper forward lookup zone was created, and confirmed clients were using the correct DNS server IP.
+
+---
+
+### DHCP Scope Issues
+- **Issue:** Client machines were not receiving IP addresses automatically.
+- **Cause:** DHCP scope was either not activated or improperly configured.
+- **Fix:** Activated the DHCP scope and verified IP range, subnet mask, and lease settings were correctly defined.
+
+---
+
+### DHCP Scope Options (DNS & Domain)
+- **Issue:** Clients received IP addresses but could not resolve domain resources.
+- **Cause:** DNS server and domain name were not configured in DHCP scope options.
+- **Fix:** Configured DHCP options (006 DNS Servers and 015 DNS Domain Name) to point to the domain controller and local domain.
+
+---
+
+### NTFS Permissions / Shared Folder Access
+- **Issue:** Users were unable to access shared folders as expected.
+- **Cause:** Incorrect or missing security group permissions.
+- **Fix:** Assigned permissions using department-based security groups and verified effective access through testing with different user accounts.
+
+---
+
+### General Takeaways
+These issues reinforced the importance of:
+- Proper planning of AD structure before implementation  
+- DNS as a critical dependency for domain functionality  
+- Ensuring DHCP and DNS work together correctly  
+- Using security groups (not individual users) for scalable permission management  
+- Testing access from the user perspective to validate configurations  
