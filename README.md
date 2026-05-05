@@ -154,7 +154,7 @@ Verified DHCP functionality by confirming dynamic IP assignment to domain-joined
 #### Group Policy Results (gpresult)
 <img src="screenshots/gpresult-drive-mapping.png" width="700">
 
-Validated that the `Drive Mapping - Departments` Group Policy Object was successfully applied to the user.
+Validated that the Drive Mapping - Departments Group Policy Object was successfully applied to the user.
 
 ---
 
