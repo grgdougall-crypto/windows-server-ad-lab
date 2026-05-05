@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project simulates a small business IT environment using Windows Server 2022, demonstrating hands-on configuration of Active Directory, DNS, DHCP, and access control.
+This project demonstrates the deployment of a Windows Server 2022 domain environment, including Active Directory, DNS, and DHCP, within an isolated Hyper-V lab network.
 
 The lab emphasizes building, validating, and troubleshooting core services, with a focus on understanding how network and domain components interact in a real-world environment.
 
@@ -109,7 +109,7 @@ Created and organized user accounts within department-based Organizational Units
 ### DHCP Scope Configuration
 <img src="screenshots/dhcp-scope.png" width="700">
 
-Configured a DHCP scope with defined IP address range, subnet mask, and lease duration to support client device connectivity.
+Configured a DHCP scope to dynamically assign IP addresses within the 10.0.50.0/24 subnet, enabling automated client network configuration.
 
 ---
 
