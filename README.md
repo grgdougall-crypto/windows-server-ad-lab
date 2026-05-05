@@ -61,6 +61,12 @@ I validated system functionality by testing domain joins, user access, and resou
 
 ---
 
+## Client Integration & Group Policy
+
+This phase of the lab focused on integrating a Windows client into the lab.local domain and validating centralized management through Active Directory, DHCP, and Group Policy. The client successfully received an IP address from the DHCP server, authenticated using domain credentials, and applied Group Policy settings including department-based drive mappings. This confirms end-to-end functionality of core domain services.
+
+---
+
 ## Project Outcome
 
 This lab demonstrates the ability to build and manage a functional Windows Server environment, including identity management, network services, and access control.
@@ -124,6 +130,41 @@ Applied advanced NTFS permissions using security groups to enforce department-le
 <img src="screenshots/network-diagram.png" width="700">
 
 This diagram represents the structure of the lab environment, including the domain controller, organizational units, client systems, and shared resources. It highlights how Active Directory, DNS, DHCP, and NTFS permissions work together to manage users, devices, and access control within a domain environment.
+
+---
+
+#### Client Domain Join
+<img src="screenshots/client-domain-joined.png" width="700">
+
+Successfully joined the Windows client machine to the `lab.local` domain, confirming proper DNS resolution and domain connectivity.
+
+---
+
+#### Domain User Login
+<img src="screenshots/domain-login-hr-user.png" width="700">
+
+Verified domain authentication by logging in with a domain user account (`LAB\hr_user1`).
+
+---
+
+#### DHCP Address Leases
+<img src="screenshots/dhcp-address-leases.png" width="700">
+
+Confirmed DHCP functionality by verifying that IP addresses were dynamically assigned to both the domain controller and client machines.
+
+---
+
+#### Group Policy Results (gpresult)
+<img src="screenshots/gpresult-drive-mapping.png" width="700">
+
+Validated that the `Drive Mapping - Departments` Group Policy Object was successfully applied to the user.
+
+---
+
+#### Mapped Network Drive
+<img src="screenshots/mapped-drive-hr.png" width="700">
+
+Confirmed that the HR department network drive was automatically mapped via Group Policy, demonstrating successful centralized resource access control.
 
 ---
 
