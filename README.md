@@ -6,6 +6,8 @@ This project simulates a small business IT environment using Windows Server 2022
 
 The lab emphasizes building, validating, and troubleshooting core services, with a focus on understanding how network and domain components interact in a real-world environment.
 
+This project was built to reinforce foundational system administration skills relevant to entry-level IT support and infrastructure roles.
+
 ---
 
 ## Skills Practiced
@@ -33,19 +35,20 @@ The lab emphasizes building, validating, and troubleshooting core services, with
 
 ## What I Built
 
-I created a simulated business environment with department-based users, groups, and shared resources.
+I designed and implemented a simulated business IT environment using Windows Server 2022 to replicate common enterprise infrastructure components.
 
 Key configurations included:
-- Active Directory structure with Organizational Units (OUs) and user accounts  
-- DNS configuration to support domain services and name resolution  
-- DHCP scope and scope options for automated IP addressing and domain connectivity  
-- Shared folders with NTFS permissions using department-level security groups  
 
-I validated configurations by testing user access and troubleshooting connectivity and permission-related issues.
+- Active Directory domain structure with Organizational Units (OUs) and user accounts aligned to business departments  
+- DNS configuration to support domain services and internal name resolution  
+- DHCP scope and scope options to automate IP addressing and ensure proper domain connectivity  
+- Shared file system with NTFS permissions enforced through department-based security groups  
+
+I validated system functionality by testing domain joins, user access, and resource permissions, and resolved configuration issues through troubleshooting DNS, DHCP, and access control dependencies.
 
 ---
 
-## Lab Environment Design
+## Network Configuration
 
 - Domain: lab.local  
 - Server: Windows Server 2022 (Domain Controller)  
@@ -120,7 +123,7 @@ Applied advanced NTFS permissions using security groups to enforce department-le
 ### Network Diagram
 <img src="screenshots/network-diagram.png" width="700">
 
-This diagram illustrates how the domain controller, client machine, and network services interact within the lab environment.
+This diagram represents the structure of the lab environment, including the domain controller, organizational units, client systems, and shared resources. It highlights how Active Directory, DNS, DHCP, and NTFS permissions work together to manage users, devices, and access control within a domain environment.
 
 ---
 
