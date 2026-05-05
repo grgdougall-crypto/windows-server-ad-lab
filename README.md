@@ -50,14 +50,15 @@ I validated system functionality by testing domain joins, user access, and resou
 
 ## Network Configuration
 
-- Domain: lab.local  
-- Server: Windows Server 2022 (Domain Controller)  
-- Client: Windows 10/11 VM  
-- Services: Active Directory, DNS, DHCP  
+- Domain: lab.local
+- Server: Windows Server 2022 (Domain Controller)
+- Client: Windows 10/11 VM
+- Services: Active Directory, DNS, DHCP
+- Internal Network: 10.0.50.0/24
+- Domain Controller IP: 10.0.50.2
+- DHCP Scope: 10.0.50.100–10.0.50.200
 
-- Internal Network: 192.168.1.0/24  
-- Domain Controller IP: 192.168.1.10  
-- DHCP Scope: 192.168.1.100–192.168.1.200
+Note: The lab uses an isolated internal Hyper-V network to simulate a private enterprise environment.
 
 ---
 
