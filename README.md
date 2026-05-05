@@ -2,11 +2,7 @@
 
 ## Overview
 
-This project demonstrates the deployment of a Windows Server 2022 domain environment, including Active Directory, DNS, and DHCP, within an isolated Hyper-V lab network.
-
-The lab emphasizes building, validating, and troubleshooting core services, with a focus on understanding how network and domain components interact in a real-world environment.
-
-This project was built to reinforce foundational system administration skills relevant to entry-level IT support and infrastructure roles.
+This project demonstrates the deployment and validation of a Windows Server 2022 domain environment using Active Directory, DNS, and DHCP within an isolated Hyper-V lab.
 
 ---
 
@@ -35,7 +31,7 @@ This project was built to reinforce foundational system administration skills re
 
 ## What I Built
 
-I designed and implemented a simulated business IT environment using Windows Server 2022 to replicate common enterprise infrastructure components.
+I designed and implemented a simulated enterprise IT environment using Windows Server 2022, configuring core infrastructure services to support centralized authentication, network management, and access control.
 
 Key configurations included:
 
@@ -70,11 +66,11 @@ This phase of the lab focused on integrating a Windows client into the lab.local
 
 ## Project Outcome
 
-This lab demonstrates the ability to build and manage a functional Windows Server environment, including identity management, network services, and access control.
+This lab demonstrates the ability to build and manage a functional Windows Server environment using Active Directory, DNS, DHCP, and Group Policy.
 
-Through this project, I gained hands-on experience configuring core IT infrastructure and troubleshooting common issues related to DNS, DHCP, and user permissions.
+It includes hands-on configuration, validation, and troubleshooting of core services such as domain authentication, IP address assignment, and access control.
 
-This project reflects common responsibilities in entry-level IT roles, including user management, network configuration, and troubleshooting system access issues.
+This project reflects real entry-level IT responsibilities, including user management, network configuration, and resolving system access issues.
 
 ---
 
@@ -151,7 +147,7 @@ Verified domain authentication by logging in with a domain user account (`LAB\hr
 #### DHCP Address Leases
 <img src="screenshots/dhcp-address-leases.png" width="700">
 
-Confirmed DHCP functionality by verifying that IP addresses were dynamically assigned to both the domain controller and client machines.
+Verified DHCP functionality by confirming dynamic IP assignment to domain-joined clients.
 
 ---
 
@@ -171,7 +167,7 @@ Confirmed that the HR department network drive was automatically mapped via Grou
 
 ## Troubleshooting & Lessons Learned
 
-During the lab, I encountered several common configuration issues and worked through them to better understand how Windows Server services interact.
+This section highlights real configuration issues encountered during deployment and how they were resolved, reinforcing the dependencies between core Windows Server services.
 
 ### Active Directory / Domain Setup
 - **Issue:** Initial confusion around domain structure and OU organization.
